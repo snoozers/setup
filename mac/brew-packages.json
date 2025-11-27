@@ -1,0 +1,133 @@
+{
+  "formula": {
+    "description": "Command-line tools and utilities",
+    "packages": [
+      {
+        "name": "bash",
+        "description": "Bourne-Again SHell"
+      },
+      {
+        "name": "trash",
+        "description": "CLI tool to move files to trash"
+      },
+      {
+        "name": "jq",
+        "description": "Command-line JSON processor"
+      },
+      {
+        "name": "tig",
+        "description": "Text interface for Git repositories"
+      },
+      {
+        "name": "bat",
+        "description": "Clone of cat with syntax highlighting"
+      },
+      {
+        "name": "vim",
+        "description": "Highly configurable text editor"
+      },
+      {
+        "name": "fzf",
+        "description": "Command-line fuzzy finder"
+      },
+      {
+        "name": "xcbeautify",
+        "description": "Formatter for Xcode build output"
+      },
+      {
+        "name": "ripgrep",
+        "description": "Fast search tool (rg)"
+      }
+    ]
+  },
+  "cask": {
+    "description": "GUI applications",
+    "groups": {
+      "development": [
+        {
+          "name": "docker",
+          "description": "Container platform"
+        },
+        {
+          "name": "visual-studio-code",
+          "description": "Code editor"
+        },
+        {
+          "name": "iterm2",
+          "description": "Terminal emulator"
+        },
+        {
+          "name": "postman",
+          "description": "API development platform"
+        },
+        {
+          "name": "dbeaver-community",
+          "description": "Database management tool"
+        },
+        {
+          "name": "stoplight-studio",
+          "description": "API design tool"
+        },
+        {
+          "name": "claude-code",
+          "description": "AI-powered coding assistant"
+        }
+      ],
+      "browsers": [
+        {
+          "name": "google-chrome",
+          "description": "Web browser"
+        },
+        {
+          "name": "firefox",
+          "description": "Web browser",
+          "options": [
+            "--language=ja"
+          ]
+        }
+      ],
+      "communication": [
+        {
+          "name": "slack",
+          "description": "Team communication platform"
+        },
+        {
+          "name": "zoom",
+          "description": "Video conferencing"
+        }
+      ],
+      "utilities": [
+        {
+          "name": "xbar",
+          "description": "Menu bar customization"
+        },
+        {
+          "name": "rectangle",
+          "description": "Window management"
+        },
+        {
+          "name": "stats",
+          "description": "System monitor"
+        },
+        {
+          "name": "clipy",
+          "description": "Clipboard manager"
+        },
+        {
+          "name": "alt-tab",
+          "description": "Windows-style window switcher"
+        },
+        {
+          "name": "voiceink",
+          "description": "Voice transcription utility"
+        }
+      ],
+      "productivity": [
+        {
+          "name": "notion",
+          "description": "All-in-one workspace"
+        }
+      ]
+    }
+  }
+}

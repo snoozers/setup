@@ -1,0 +1,17 @@
+# ログファイル
+logs/*
+
+# .gitkeep は管理する
+!logs/.gitkeep
+
+# macOS システムファイル
+.DS_Store
+
+# 一時ファイル
+*.tmp
+*.swp
+*~
+
+# エディタ設定
+.vscode/
+.idea/
